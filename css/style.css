@@ -56,6 +56,7 @@ a {
   float: right;
   display: none;
   padding: 18px 10px;
+  right: -3000px;
   /* color: rgb(224, 127, 8); */
 }
 .mobile-menu:hover {
@@ -80,6 +81,10 @@ a {
   background: #415c54;
   transition: 0.3s;
   opacity: 0.9;
+  cursor: pointer;
+}
+.sidebar:hover {
+  left: -300px;
 }
 /* .sidebar .ul {
     padding-top: 5rem;
@@ -101,7 +106,7 @@ a {
 #check {
   display: none;
 }
-#check:checked ~ .sidebar {
+.check:checked ~ .sidebar {
   left: 0px;
 }
 .banner {
@@ -151,26 +156,6 @@ p {
   /* position: relative; */
   text-align: center;
 }
-/* .skills h3::before {
-    content: "";
-    display: block;
-    bottom: 0;
-    position: absolute;
-    width: 120px;
-    height: 1px;
-    background-color: rgb(212, 208, 202);
-    left: calc(50% - 60px);
-  }
-  .skills h3::after {
-    content: "";
-    display: block;
-    bottom: 0;
-    position: absolute;
-    width: 40px;
-    height: 5px;
-    background-color: rgb(224, 127, 8);
-    left: calc(50% - 20px);
-  } */
 
 .skills .bar {
   height: 15px;

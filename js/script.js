@@ -39,3 +39,15 @@ let c = "";
   }
   setTimeout(run, 1000);
 })();
+
+const menuMobile = document.querySelectorAll(".sidebar ul li a");
+menuMobile.forEach(function (e) {
+  e.addEventListener("click", function () {
+    check.classList.remove("check");
+  });
+});
+
+const tambahClass = document.querySelector(".mobile-menu");
+tambahClass.addEventListener("mouseover", function () {
+  check.classList.add("check");
+});
