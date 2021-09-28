@@ -236,7 +236,10 @@ p {
 @media (max-width: 760px) {
   .col-4 {
     width: 100%;
-    text-align: start;
+    text-align: justify;
+    padding: 0px 0px;
+    /* float: left; */
+    /* margin: 0 0; */
   }
 }
 
@@ -270,6 +273,7 @@ p {
 section {
   padding-top: 5rem;
   background-color: #f6f6f3;
+  margin-bottom: 0;
 }
 .slide {
   overflow: hidden;
