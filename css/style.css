@@ -210,14 +210,12 @@ p {
 }
 .portfolio {
   /* margin-bottom: 5px; */
-  /* padding: 10px; */
   cursor: pointer;
 }
 
 .portfolio h3 {
   text-align: center;
-  /* padding: 20px; */
-  /* margin: 20px; */
+  padding: 20px;
 }
 .col-4 {
   width: 25%;
@@ -239,7 +237,7 @@ p {
   .col-4 {
     width: 100%;
     text-align: justify;
-    padding: 0px 0px;
+    padding: 20px 0px;
     /* float: left; */
     /* margin: 0 0; */
   }
