@@ -51,3 +51,15 @@ const tambahClass = document.querySelector(".mobile-menu");
 tambahClass.addEventListener("mouseover", function () {
   check.classList.add("check");
 });
+
+//membuat hilight pada setiap judul
+
+const judul = document.querySelectorAll("#judul");
+menuMobile.forEach(function (e) {
+  e.addEventListener("click", function () {
+    judul.forEach(function (j) {
+      // console.log(j.textContent);
+      j.classList.add("warna");
+    });
+  });
+});
