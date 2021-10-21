@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-
+   <link rel="stylesheet" href="/css/modal.css">
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
@@ -46,8 +46,8 @@
     <section class="banner">
       <div class="container">
         <img src="./img/a_so.png" alt="" />
-        <h2>Selamat Datang <span class="titik"></span></h2>
-        <h4>Saya adalah seorang <span class="ketikan"></span></h4>
+        <h4>Selamat Datang <span class="titik"></span></h4>
+        <p>Saya adalah seorang <span class="ketikan"></span></p>
       </div>
       <span class="gambar">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
@@ -78,7 +78,7 @@
       <div class="container">
         <h3 id="judul"><i class="fas fa-user-graduate"></i> Pendidikan</h3>
         <div class="">
-          <div class=""><h4>STIMIK Insan Pembangunan | Sistem Informasi | 2020/2021</h4>
+          <div class=""><h4>STMIK Insan Pembangunan | Sistem Informasi | 2020/2021</h4>
           
             
           </div>
@@ -139,106 +139,128 @@
     </section>
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#415c54" fill-opacity="1" d="M0,96L48,117.3C96,139,192,181,288,202.7C384,224,480,224,576,197.3C672,171,768,117,864,96C960,75,1056,85,1152,101.3C1248,117,1344,139,1392,149.3L1440,160L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path></svg>
     <section id="portfolio" class="portfolio">
-      <div class="container">
-        <h3 id="judul"> <i class="fas fa-tasks"></i> Portfolio</h3>
-        <div class="col-4">
-          <div class="slide2">
-            <figure>
+      
+      <h3 id="judul"> <i class="fas fa-tasks"></i> Portfolio</h3>
+      <div class="port">
+          <div class="batas">
+            <div class="col-4">
               <div class="slide2">
-                <img src="./img/M1.JPG" alt="">
-               </div>
-              <div class="slide2">
-                <img src="./img/M3.JPG" alt="">
-               </div>
-              <div class="slide2">
-                <img src="./img/M2.JPG" alt="">
-               </div>
- 
-            </figure>
+                <figure>
+                  <div class="slide2">
+                    <img src="./img/M1.JPG" alt="">
+                  </div>
+                  <div class="slide2">
+                    <img src="./img/M3.JPG" alt="">
+                  </div>
+                  <div class="slide2">
+                    <img src="./img/M2.JPG" alt="">
+                  </div>
+                  
+                </figure>
+              </div>
+              <p>Membuat aplikasi Laporan Pelanggaran Karyawan</p>
+              <button class="detail" data-detail="mayora">detail</button>
+              
+            </div>
           </div>
-            <span>Membuat Aplikasi Sistem Pencatatan Pelanggaran<strong> Pada PT. MAYORA TBK Departeman IRGA</strong> Aplikasi ini bertujuan untuk melakukan pengendalian terhadap Karyawan atau visitor yang melakukan pelanggaran </span>
-          
+          <div class="batas">
+            <div class="col-4">
+              <div class="slide2">
+                <figure>
+                  <div class="slide2">
+                    <img src="./img/E1.JPG" alt="">
+                  </div>
+                  <div class="slide2">
+                    <img src="./img/E2.JPG" alt="">
+                  </div>
+                  <div class="slide2">
+                    <img src="./img/E3.JPG" alt="">
+                  </div>    
+                </figure>
+              </div>
+              <p>Membuat aplikasi E-voting Pemilihan Kepala Desa</p>
+              <button class="detail" data-detail="evoting">detail</button>  
+            </div>   
         </div>
-        <div class="col-4">
-          
-          <div class="slide2">
-            <figure>
-              <div class="slide2">
-                <img src="./img/E1.JPG" alt="">
-               </div>
-              <div class="slide2">
-                <img src="./img/E2.JPG" alt="">
-               </div>
-              <div class="slide2">
-                <img src="./img/E3.JPG" alt="">
-               </div>
-               
- 
-            </figure>
-          </div>
-            <span>Aplikasi <Strong> Evoting </Strong>Mengguanakan Frmawork Php Laravel Dimana Pembuatan aplikasi berbasis Web tersebut bertujuan untuk Memudahkan warga agar bisa melakukan Pemilihan Kepala Desa, Ketua RT dan Rw  tanpa melakukan Antri dan tetap Social Distancing</span>
-         
-        </div>
-        <div class="col-4">
-          
-          <div class="slide">
-            <figure>
+          <div class="batas">
+            <div class="col-4">
+              
               <div class="slide">
+                <figure>
+                  <div class="slide">
                 <img src="./img/Q1.JPG" alt="">
-               </div>
+              </div>
               <div class="slide">
                 <img src="./img/Q2.JPG" alt="">
-               </div>
-              <div class="slide">
-                <img src="./img/Q3.JPG" alt="">
-               </div>
-               
-            </figure>
-          </div>
-            <span>Membuat <strong> Aplikasi Penjualan Toko Sepatu </strong>Secara Ofline aplikasi ini bertujuan untuk melakukan pembukuan pada penjualan di antaranya Seperti Melihat Jumlah Pembelian setiap harinya  </span>
-         
-        </div>
-        <!-- <div class="col-4">
-          <div class="slide">
-            <figure>
-              <div class="slide">
-                <img src="./img/D1.JPG" alt="">
-               </div>
-              <div class="slide">
-                <img src="./img/D2.JPG" alt="">
-               </div>
-              <div class="slide">
-                <img src="./img/D3.JPG" alt="">
-               </div>
-               
- 
-            </figure>
-          </div>
-             <span>Aplikasi Sistem Pendukung Keputusan Mengguanakan Frmawork Laravel Pada PT.Indomarco Prismatama</span>
-          
-         
-        </div> -->
-        <div class="col-4">
-          
-         
-            <div class="slide">
-              <figure>
+              </div>
                 <div class="slide">
-                  <img src="./img/P1.JPG" alt="">
-                 </div>
-                <div class="slide">
-                  <img src="./img/P2.JPG" alt="">
-                 </div>
-                <div class="slide">
-                  <img src="./img/P3.JPG" alt="">
-                 </div>
-                 
+                  <img src="./img/Q3.JPG" alt="">
+                </div>     
               </figure>
             </div>
-              <span>Aplikasi Monitoring Proses Planing Pembuatan Sampel Sepatu Pada<strong> PT.Adis Dimension Footwear</strong> Dengan Framwork Php Laravel Dengan Aplikasi Ini Proses Monitor Planing dan control Stok bahan baku pembuatan Sepatu lebih terkontrol</span>
+            <p>Membuat aplikasi Penjualan</p>
+            <button class="detail" data-detail="quila">detail</button> 
+          </div>
+          
         </div>
-        
+        <div class="batas">
+          <div class="col-4">      
+            <div class="slide">
+            <figure>
+              <div class="slide">
+                <img src="./img/P1.JPG" alt="">
+              </div>
+                 <div class="slide">
+                   <img src="./img/P2.JPG" alt="">
+                  </div>
+                 <div class="slide">
+                   <img src="./img/P3.JPG" alt="">
+                  </div>
+                  
+                </figure>
+              </div>
+              <p>Membuat aplikasi Monitoring Planing</p>
+              <button class="detail" data-detail="adis">detail</button>
+            </div>
+          </div>  
+          <div class="batas">
+            <div class="col-4">
+              <div class="slide">
+                <figure>
+                  <div class="slide">
+                    <img src="./img/D1.JPG" alt="">
+                  </div>
+                  <div class="slide">
+                    <img src="./img/D2.JPG" alt="">
+                  </div>
+                  <div class="slide">
+                    <img src="./img/D3.JPG" alt="">
+                  </div>   
+                </figure>
+              </div>
+              
+              <p>Membuat aplikasi Decision Suport System</p>
+              <button class="detail" data-detail="spk">detail</button>      
+            </div>
+          </div>
       </div>
+      <!-- modal box -->
+
+      <div class="modal-wrapper">
+  <div class="modal">
+    <div class="head">  
+      <button  class="btn-close teken" id="tutup">
+        <i class="fa fa-times"></i>
+    </button>
+    </div>
+    <div class="content">
+      <div class="good-job">
+        <i class="fa fa-thumbs-o-up"></i>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste aliquid blanditiis corporis repellat. Hic, consequuntur quia doloremque expedita, deserunt numquam earum odit enim nihil libero dolorem dolorum officiis incidunt exercitationem.</p>
+      </div>
+    </div>
+  </div>
+</div>
     </section>
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#415c54" fill-opacity="1" d="M0,128L48,117.3C96,107,192,85,288,90.7C384,96,480,128,576,138.7C672,149,768,139,864,117.3C960,96,1056,64,1152,53.3C1248,43,1344,53,1392,58.7L1440,64L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path></svg>
     <section id="contact" class="contact">
@@ -263,9 +285,10 @@
           <p><a href="#"><i class="fab fa-github" style="color: #1b1619;"> Github</i></a></p>
         </div>
       </div>
+    </section>
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#415c54" fill-opacity="1" d="M0,96L48,133.3C96,171,192,245,288,277.3C384,309,480,299,576,288C672,277,768,267,864,240C960,213,1056,171,1152,133.3C1248,96,1344,64,1392,48L1440,32L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path></svg>
       
-    </section>
     <script src="js/script.js"></script>
+    <script src="js/modal.js"></script>
   </body>
 </html>
