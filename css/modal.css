@@ -21,15 +21,26 @@
 @media (max-width: 760px) {
   .modal {
     width: 100vh;
+    padding: 20px 0 0 0;
     position: relative;
-    background: #f6f6f3;
+    background: #dee7e4;
     opacity: 0;
     transition: all 0.5s ease-in-out;
+    height: 60%;
+    /* margin: 50px auto; */
   }
   .head {
-    width: 100%;
-    overflow: hidden;
-    background: #dee7e4;
+    width: 100vh;
+
+    background-color: #dee7e4;
+  }
+  .content {
+    box-sizing: border-box;
+    /* width: 100vh; */
+    line-height: 20px;
+    text-align: start;
+    overflow: scroll;
+    height: 80%;
   }
 }
 .modal {
@@ -39,7 +50,7 @@
   position: relative;
   top: 50%;
   left: 50%;
-  background: #f6f6f3;
+  background: #dee7e4;
   opacity: 0;
   transition: all 0.5s ease-in-out;
 }
@@ -51,20 +62,32 @@
 
 .head {
   width: 100%;
-  margin: 20px auto;
+  /* margin: 10px auto; */
+  margin-top: 0;
   overflow: hidden;
   background: #dee7e4;
 }
 
 .btn-close {
-  font-size: 28px;
+  background-color: #dee7e4;
+  font-size: 25px;
+  border: 0;
+  width: 30px;
+  height: 27px;
+  /* margin-left: 10px; */
+  margin-right: 10px;
+  text-align: center;
   display: block;
   float: right;
   color: rgb(151, 18, 18);
 }
 
 .content {
-  padding: 10%;
+  display: flex;
+  justify-content: center;
+  line-height: 30px;
+  background-color: light;
+  padding: 5%;
 }
 
 .good-job {
@@ -83,7 +106,6 @@
 .detail {
   width: 60px;
   background-color: #415c54;
-  /* background-color: transparent; */
   border-radius: 5px;
   color: rgb(188, 231, 31);
   padding: 7px 5px;
