@@ -27,7 +27,6 @@
     opacity: 0;
     transition: all 0.5s ease-in-out;
     height: 60%;
-    /* margin: 50px auto; */
   }
   .head {
     width: 100vh;
@@ -36,7 +35,6 @@
   }
   .content {
     box-sizing: border-box;
-    /* width: 100vh; */
     line-height: 20px;
     text-align: start;
     overflow: scroll;
@@ -62,7 +60,6 @@
 
 .head {
   width: 100%;
-  /* margin: 10px auto; */
   margin-top: 0;
   overflow: hidden;
   background: #dee7e4;
@@ -74,14 +71,17 @@
   border: 0;
   width: 30px;
   height: 27px;
-  /* margin-left: 10px; */
   margin-right: 10px;
   text-align: center;
   display: block;
   float: right;
   color: rgb(151, 18, 18);
 }
-
+.btn-close:hover {
+  cursor: pointer;
+  background-color: red;
+  color: #dee7e4;
+}
 .content {
   display: flex;
   justify-content: center;
