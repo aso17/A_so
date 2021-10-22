@@ -6,7 +6,7 @@ detail.forEach(function (b) {
     wraper.classList.toggle("open");
   });
   if (b.getAttribute("data-detail") == "mayora") {
-    console.log("haloo");
+    
   }
 });
 
