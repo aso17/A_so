@@ -71,6 +71,20 @@ a {
   .banner img {
     width: 100%;
   }
+  .sidebar {
+    position: fixed;
+    top: 3.5rem;
+    left: 0;
+    height: 100%;
+    bottom: 0;
+    left: -300px;
+    width: 200px;
+    background: #415c54;
+    transition: 0.3s;
+    opacity: 0.9;
+    cursor: pointer;
+    z-index: 3;
+  }
 }
 .sidebar {
   position: fixed;
@@ -80,7 +94,7 @@ a {
   bottom: 0;
   left: -300px;
   width: 200px;
-  background: #18936e;
+  background: #415c54;
   transition: 0.3s;
   opacity: 0.9;
   cursor: pointer;
