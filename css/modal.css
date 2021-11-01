@@ -24,7 +24,7 @@
 @media (max-width: 568px) {
   .modal-wrapper {
     width: 150%;
-    height: 90%;
+    /* height: 90%; */
     position: absolute;
     z-index: 4;
     box-sizing: border-box;
