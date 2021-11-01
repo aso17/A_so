@@ -74,13 +74,13 @@ a {
 }
 .sidebar {
   position: fixed;
-  top: 4rem;
+  top: 3.5rem;
   left: 0;
   height: 100%;
   bottom: 0;
   left: -300px;
   width: 200px;
-  background: #415c54;
+  background: #18936e;
   transition: 0.3s;
   opacity: 0.9;
   cursor: pointer;
