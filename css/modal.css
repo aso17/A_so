@@ -121,10 +121,9 @@
 }
 .detail {
   width: 60px;
-  background-color: #415c54;
-  border-radius: 5px;
-  color: rgb(188, 231, 31);
-  padding: 7px 5px;
-  margin: 10px;
+  background-color: #b0e0e6;
+  border-radius: 20px;
+  color: #11110e;
+  border: 0px;
   font-size: 15px;
 }
