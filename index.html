@@ -1,11 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="css/style.css" />
-    <link rel="stylesheet" href="css/modal.css">
+    <link rel="stylesheet" href="css/mycss.css" />
+    <link rel="stylesheet" href="css/mycss2.css" />
+  
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Pacifico&display=swap" rel="stylesheet" />
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link
       rel="stylesheet"
@@ -14,135 +15,126 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
-    <title>My portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>myportfolio</title>
   </head>
-  <body>
-    <input type="checkbox" class="check" id="check" />
-    <div class="sidebar">
+  <body style="background-color: rgb(22, 19, 12);">
+    <nav>
+      <div class="logo"><h4>Agus Solihin</h4></div>
       <ul>
-        <li><a href="#about">About</a></li>
-        <li><a href="#pendidikan">Education</a></li>
-        <li><a href="#skills">Skills</a></li>
-        <li><a href="#portfolio"> Portfolio</a></li>
-        <li><a href="#contact"> Contact</a></li>
+        <li><a href="http://">Home</a></li>
+        <li><a href="http://">About</a></li>
+        <li><a href="http://">Skills</a></li>
+        <li><a href="http://">Portfolio</a></li>
+        <li><a href="http://">Contact</a></li>
       </ul>
-    </div>
-    <header>
-      <div class="container">
-        <h3>Agus solihin</h3>
-        <ul>
-          <li><a href="#about">About</a></li>
-          <li><a href="#pendidikan">Education</a></li>
-          <li><a href="#skills"></i>Skills</a></li>
-          <li><a href="#portfolio"> Portfolio</a></li>
-          <li><a href="#contact"> Contact</a></li>
-        </ul>
-        <label for="check" class="mobile-menu"><i class="far fa-chart-bar fa-2x"></i></label>
+
+      <div class="toggle-menu">
+        <input type="checkbox" />
+        <span></span>
+        <span></span>
+        <span></span>
       </div>
-    </header>
-    <section class="banner">
-      <div class="container">
-        <img src="./img/fot_fix-re.png" alt="" />
-        <h4>Welcome <span class="titik"></span></h4>
-        <p><span class="ketikan"></span></p>
-      </div>
-      <span class="gambar">
-      </span>
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#B0E0E6" fill-opacity="1" d="M0,96L48,112C96,128,192,160,288,176C384,192,480,192,576,186.7C672,181,768,171,864,149.3C960,128,1056,96,1152,69.3C1248,43,1344,21,1392,10.7L1440,0L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path></svg>
-    </section>
-    <!-- About -->
-    <section class="about" id="about">
-      <div class="container" >
-        <h3 id="judul"><i class="far fa-address-card"></i> About Me</h3>
-        <p>I am a Junior Web Developer who masters web based programming languages and several Frontend and Backend Frameworks. I have worked on several projects related to this.</p>
-      </section>
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
-        <path
-          fill="#B0E0E6"
-          fill-opacity="1"
-          d="M0,320L60,282.7C120,245,240,171,360,149.3C480,128,600,160,720,165.3C840,171,960,149,1080,128C1200,107,1320,85,1380,74.7L1440,64L1440,320L1380,320C1320,320,1200,320,1080,320C960,320,840,320,720,320C600,320,480,320,360,320C240,320,120,320,60,320L0,320Z"
-        ></path>
-      </svg>
-    <!-- ahir About -->
-    <!-- Pendidikan -->
-    <section id="pendidikan">
-      <div class="container">
-        <h3 id="judul"><i class="fas fa-user-graduate"></i> Education</h3>
-        <div class="">
-          <div class=""><h4>STMIK Insan Pembangunan | Sistem Informasi | 2020/2021</h4>
-          
-            
-          </div>
+    </nav>
+    <div class="containt">
+      <section class="banner">
+        <div class="container">
+          <img src="./img/a_so.png" alt="" />
+          <h5 style="color: white; margin-top: 20px;"><span class="ketikan"></span></h5>
         </div>
+        <span class="gambar">
+        </span>
+      </section>
+      <div class="class" style="z-index: -9;">
+  <svg xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 1440 320"><path fill="#5F9EA0" fill-opacity="1" d="M0,96L48,112C96,128,192,160,288,176C384,192,480,192,576,186.7C672,181,768,171,864,149.3C960,128,1056,96,1152,69.3C1248,43,1344,21,1392,10.7L1440,0L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path></svg>
+      </div>
+        <!-- About -->
+      <section class="about" id="about">
+        <div class="container" >
+          <h3 id="judul"><i class="far fa-address-card" style="color: #5F9EA0 "></i> About Me</h3>
+          <h5>I am a Junior Web Developer who masters web based programming languages and several Frontend and Backend Frameworks. I have worked on several projects related to this.</h5>
+        </section>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#5F9EA0" fill-opacity="1" d="M0,64L48,64C96,64,192,64,288,69.3C384,75,480,85,576,90.7C672,96,768,96,864,117.3C960,139,1056,181,1152,213.3C1248,245,1344,267,1392,277.3L1440,288L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path></svg>
+      <!-- ahir About -->
+      <!-- Pendidikan -->
+    <section id="pendidikan">
+      <div class="education">
+        <h3 id="judul"><i class="fas fa-user-graduate" style="color: #5F9EA0 " ></i> Education</h3>   
+            <h4>STMIK Insan Pembangunan | Sistem Informasi | 2020/2021</h4>     
+         <h5>Alamat: Pos Bitung, Jl. Raya Serang No.Km. 10, Kadu Jaya, Kec. Curug, Kabupaten Tangerang, Banten 15810</h5>
       </div>
     </section>
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#B0E0E6" fill-opacity="1" d="M0,64L48,64C96,64,192,64,288,69.3C384,75,480,85,576,90.7C672,96,768,96,864,117.3C960,139,1056,181,1152,213.3C1248,245,1344,267,1392,277.3L1440,288L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path></svg>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#5F9EA0" fill-opacity="1" d="M0,64L48,64C96,64,192,64,288,69.3C384,75,480,85,576,90.7C672,96,768,96,864,117.3C960,139,1056,181,1152,213.3C1248,245,1344,267,1392,277.3L1440,288L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path></svg>
     <!-- Pendidikan -->
+
+
     <!-- Skils -->
     <section class="skills" id="skills">
-      <div class="container">
-        <h3 id="judul"><i class="fas fa-laptop-code"></i> Skills</h3>
-        <h5> <i class="fab fa-html5"></i> Html</h5>
+      <div class="">
+        <h3 id="judul"><i class="fas fa-laptop-code" style="color: #5F9EA0 "></i> Skills</h3>
+        <h5> <i class="fab fa-html5" style="color: #5F9EA0 " ></i> Html</h5>
         <div class="bar">
           <div class="nilai html"><span>95%</span>
             
           </div>
         </div>
-        <h5><i class="fab fa-css3-alt"></i> Css</h5>
+        <h5><i class="fab fa-css3-alt" style="color: #5F9EA0 "></i> Css</h5>
         <div class="bar">
-          <div class="nilai css"><span>75%</span>
-            
+          <div class="nilai css"><span>75%</span>      
           </div>
         </div>
-        <h5><i class="fab fa-bootstrap"></i> Bootstrap</h5>
+        <h5><i class="fab fa-bootstrap" style="color: #5F9EA0 "></i> Bootstrap</h5>
         <div class="bar">
           <div class="nilai boot"><span>80%</span>
             
           </div>
         </div>
-        <h5><i class="fab fa-js"></i> JavaScript</h5>
+        <h5><i class="fab fa-js" style="color: #5F9EA0 "></i> JavaScript</h5>
         <div class="bar">
           <div class="nilai js"><span>70%</span>
             
           </div>
         </div>
-        <h5><i class="fab fa-js"></i> jQuery</h5>
+        <h5><i class="fab fa-js" style="color: #5F9EA0 "></i> jQuery</h5>
         <div class="bar">
           <div class="nilai jquery"><span>65%</span>
             
           </div>
         </div>
-        <h5><i class="fab fa-php"></i> Php</h5>
+        <h5><i class="fab fa-php" style="color: #5F9EA0 "></i> Php</h5>
         <div class="bar">
           <div class="nilai php"><span>80%</span>
             
           </div>
         </div>
-        <h5><i class="fas fa-code"></i> Codeigniter</h5>
+        <h5><i class="fas fa-code" style="color: #5F9EA0 "></i> Codeigniter</h5>
         <div class="bar">
           <div class="nilai codeg"><span>90%</span>
             
           </div>
         </div>
-        <h5><i class="fab fa-laravel" style="color: #0e0b0b;font-size: large;" ></i> Laravel</h5>
+        <h5><i class="fab fa-laravel" style="color: #5F9EA0 " ></i> Laravel</h5>
         <div class="bar">
           <div class="nilai lara"><span>70%</span>
             
           </div>
         </div>
-        <h5><i class="fas fa-database"></i> MySQL</h5>
+        <h5><i class="fas fa-database" style="color: #5F9EA0 "></i> MySQL</h5>
         <div class="bar">
           <div class="nilai sql"><span>75%</span>
             
           </div>
         </div>
-        <h5><i class="fab fa-figma"></i></i> Figma</h5>
+        <h5><i class="fab fa-figma" style="color: #5F9EA0 "></i></i> Figma</h5>
         <div class="bar">
           <div class="nilai figma"><span>60%</span>
             
           </div>
         </div>
-        <h5><i class="fas fa-file-excel"></i> Microsof Excel</h5>
+        <h5><i class="fas fa-file-excel" style="color: #5F9EA0 "></i> Microsof Excel</h5>
         <div class="bar">
           <div class="nilai excel"><span>85%</span>
             
@@ -152,13 +144,13 @@
         
       </div>
     </section>
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#B0E0E6" fill-opacity="1" d="M0,96L48,117.3C96,139,192,181,288,202.7C384,224,480,224,576,197.3C672,171,768,117,864,96C960,75,1056,85,1152,101.3C1248,117,1344,139,1392,149.3L1440,160L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path></svg>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#5F9EA0" fill-opacity="1" d="M0,64L48,64C96,64,192,64,288,69.3C384,75,480,85,576,90.7C672,96,768,96,864,117.3C960,139,1056,181,1152,213.3C1248,245,1344,267,1392,277.3L1440,288L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path></svg>
     <section id="portfolio" class="portfolio">
       
       <h3 id="judul"> <i class="fas fa-tasks"></i> Portfolio</h3>
       <div class="port">
           <div class="batas">
-            <div class="col-4">
+            <div class="coll4">
               <div class="slide2">
                 <figure>
                   <div class="slide2">
@@ -174,12 +166,14 @@
                 </figure>
               </div>
               <p>Membuat aplikasi Laporan Pelanggaran Karyawan</p>
-              <button class="detail" data-detail="0">view</button>
+              <button id="detail" type="button" class="btn btn-info btn-sm"id data-detail="0" data-bs-toggle="modal" data-bs-target="#modaldetail">
+                View
+              </button> 
               
             </div>
           </div>
           <div class="batas">
-            <div class="col-4">
+            <div class="coll4">
               <div class="slide">
                 <figure>
                   <div class="slide">
@@ -195,11 +189,13 @@
               </div>
               
               <p>Membuat aplikasi Decision Suport System</p>
-              <button class="detail" data-detail="4">view</button>      
+              <button id="detail" type="button" class="btn btn-info btn-sm" data-detail="1" data-bs-toggle="modal" data-bs-target="#modaldetail">
+                View
+              </button>      
             </div>
           </div>
           <div class="batas">
-            <div class="col-4">
+            <div class="coll4">
               <div class="slide2">
                 <figure>
                   <div class="slide2">
@@ -214,11 +210,13 @@
                 </figure>
               </div>
               <p>Membuat aplikasi E-voting Pemilihan Kepala Desa</p>
-              <button class="detail" data-detail="1">view</i></button>  
+              <button id="detail" type="button" class="btn btn-info btn-sm" data-detail="2" data-bs-toggle="modal" data-bs-target="#modaldetail">
+                View
+              </button>  
             </div>   
         </div>
           <div class="batas">
-            <div class="col-4">
+            <div class="coll4">
               
               <div class="slide">
                 <figure>
@@ -234,12 +232,14 @@
               </figure>
             </div>
             <p>Membuat aplikasi Penjualan</p>
-            <button class="detail" data-detail="2">view</button> 
+            <button id="detail" type="button" class="btn btn-info btn-sm" data-detail="3" data-bs-toggle="modal" data-bs-target="#modaldetail">
+              View
+            </button> 
           </div>
           
         </div>
         <div class="batas">
-          <div class="col-4">      
+          <div class="coll4">      
             <div class="slide">
             <figure>
               <div class="slide">
@@ -255,32 +255,56 @@
                 </figure>
               </div>
               <p>Membuat aplikasi Monitoring Planing</p>
-              <button class="detail" data-detail="3">view</button>
+              <button id="detail" type="button" class="btn btn-info btn-sm" data-detail="4" data-bs-toggle="modal" data-bs-target="#modaldetail">
+                View
+              </button>
+              
             </div>
+            
           </div>  
-         
-      </div>
+        </div>
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#5F9EA0" fill-opacity="1" d="M0,64L48,64C96,64,192,64,288,69.3C384,75,480,85,576,90.7C672,96,768,96,864,117.3C960,139,1056,181,1152,213.3C1248,245,1344,267,1392,277.3L1440,288L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path></svg>
       <!-- modal box -->
+<!-- Button trigger modal -->
+<!-- Modal -->
 
-      <div class="modal-wrapper">
-  <div class="modal">
-    <div class="head">  
-      <button  class="btn-close teken" id="tutup">
-        <i class="fa fa-times"></i>
-    </button>
-    </div>
-    <div class="content">
-      <div class="good-job">
-        <i class="fa fa-thumbs-o-up"></i>
-        <p class="main"></p>
+<div class="modal fade" id="modaldetail" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true" style="background-color:#5F9EA0 ;">
+  <div class="modal-dialog " >
+    <div class="modal-content " style=" background-color: rgba(0, 0, 0, 0.5);">
+      <div class="modal-header">
+        <h5 class="modal-title text-light"><div class="judul"></div></h5>
+        <button type="button" id="tutup" class="btn-close text-light" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body ">  
+          <h5>Spesifiksi</h5> 
+          <div class="container">
+            <ul id="spec">
+              
+            </ul>
+          </div>
+            
+  
+        <div class="mb-3">
+          <div class="container">
+
+            <h5>Description</h5>
+            <div class="PaDesc">
+              <div class="desc">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="modal-footer">
+       
       </div>
     </div>
   </div>
 </div>
-    </section>
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#B0E0E6" fill-opacity="1" d="M0,128L48,117.3C96,107,192,85,288,90.7C384,96,480,128,576,138.7C672,149,768,139,864,117.3C960,96,1056,64,1152,53.3C1248,43,1344,53,1392,58.7L1440,64L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path></svg>
+   
+    </section> 
     <section id="contact" class="contact">
-      <div class="container">
+      <div class="">
         <h3 id="judul">Contact</h3>
         <div class="col4">
           <h4>Alamat</h4>
@@ -298,13 +322,15 @@
           <h4>Media Sosial</h4>
           <p> <a href="#"><i class="fab fa-facebook-f" style="color: rgb(0, 94, 255);"> Facebook</i></a></p>
           <p><a href="https://www.instagram.com/bagus_alghozali/"><i class="fab fa-instagram-square" style="color: #ff1493;"> Instagram</i></a></p>
-          <p><a href="https://github.com/aso17"><i class="fab fa-github" style="color: #1b1619;"> Github</i></a></p>
+          <p><a href="https://github.com/aso17" style="color: white;"><i class="fab fa-github" style="color:white;"> Github</i></a></p>
         </div>
       </div>
     </section>
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#B0E0E6" fill-opacity="1" d="M0,96L48,133.3C96,171,192,245,288,277.3C384,309,480,299,576,288C672,277,768,267,864,240C960,213,1056,171,1152,133.3C1248,96,1344,64,1392,48L1440,32L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path></svg>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#5F9EA0" fill-opacity="1" d="M0,96L48,133.3C96,171,192,245,288,277.3C384,309,480,299,576,288C672,277,768,267,864,240C960,213,1056,171,1152,133.3C1248,96,1344,64,1392,48L1440,32L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path></svg>
       
-    <script src="js/script.js"></script>
-    <script src="js/modal.js"></script>
+    </div>
   </body>
+  <script src="js/myjs.js"></script>
+  <script src="js/modal.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </html>
