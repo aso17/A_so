@@ -8,12 +8,93 @@
   z-index: -3;
   box-sizing: border-box;
   width: 50%;
+  /* background-color: #990a0a; */
   text-align: center;
   background-color: rgb(22, 19, 12);
   margin-left: 20px;
   /* border: 1px solid white; */
 }
+.ban {
+  width: 80%;
+  /* border: 1px solid white; */
+  display: flex;
+}
+.box {
+  width: 20px;
+  height: 20px;
+  background-color: rgb(22, 19, 12);
+  position: relative;
+  animation-name: berubah;
+  border-radius: 100%;
+  animation-duration: 3s;
+  animation-iteration-count: 2;
+  margin: 50px auto;
+}
+.box1 {
+  width: 20px;
+  height: 20px;
+  background-color: rgb(22, 19, 12);
+  position: relative;
+  animation-name: berubah1;
+  border-radius: 100%;
+  animation-duration: 3s;
+  animation-iteration-count: 3;
+}
 
+@keyframes berubah {
+  0% {
+    background-color: rgb(22, 19, 12);
+    left: 0px;
+    top: 0px;
+  }
+  105% {
+    background-color: rgb(194, 174, 174);
+    left: 200px;
+    top: 0px;
+  }
+  80% {
+    background-color: rgb(199, 199, 184);
+    left: 200px;
+    top: 200px;
+  }
+  100% {
+    background-color: rgb(123, 133, 123);
+    left: 0px;
+    top: 200px;
+  }
+  1% {
+    background-color: rgb(199, 199, 209);
+    left: 0px;
+    top: 0px;
+  }
+}
+@keyframes berubah1 {
+  100% {
+    background-color: rgb(22, 19, 12);
+    left: 0px;
+    top: 0px;
+  }
+  35% {
+    background-color: rgb(218, 191, 191);
+    left: 200px;
+    top: 0px;
+  }
+  10% {
+    background-color: rgb(240, 240, 235);
+    left: 200px;
+    top: 200px;
+  }
+  70% {
+    background-color: rgb(201, 209, 201);
+    left: 0px;
+    top: 200px;
+  }
+  0% {
+    background-color: rgb(208, 208, 221);
+    left: 0px;
+    top: 0px;
+  }
+}
 @media (max-width: 576px) {
   .banner img {
     width: 100%;
