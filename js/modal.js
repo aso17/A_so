@@ -54,11 +54,23 @@ const dbPcc = [
       "Aplikasi ini gunakan Untuk melakukan Monitoring Planing pembuatan Sample Sepatu Pada PT.Adis Dimension Footwear, Selain itu juga dapat melihat bahan baku yang tersedia saat ini sehingga mempermudah user dalam melakukan planing",
   },
 ];
+const dbdigantara = [
+  {
+    judul: "Aplikasi Administrasi Desa Include Rest Api",
+  },
+  {
+    spesifikasi: ["PHP Language", "FrameWork Laravel Version 8.0", "JWT", "Bootstrap Version 5.0", "Css", "DataTables", "jquery", "Vanila JavaScrip", "Adminlte", "Fontawesome", "DBMS MySql"],
+  },
+  {
+    description: "Aplikasi ini gunakan Untuk Digitalisasi Nusantara Yang Peruntukan di setiap Desa Dan Bagian Dari Salah satu VISI MISI Perusahaan Startup yang berada di Bogor",
+  },
+];
 
 const detail = document.querySelectorAll("#detail");
 detail.forEach(function (b) {
   b.addEventListener("click", () => {
     let n = b.getAttribute("data-detail");
+    console.log(n);
     isi(n);
   });
 });
@@ -141,7 +153,7 @@ function isi(x) {
 
     let newDesc = `<p class="text-light"> ${dbQuila[2].description}</p>`;
     desc.insertAdjacentHTML("beforebegin", newDesc);
-  } else {
+  } else if (x == 4) {
     let texttitle = dbPcc[x - 4].judul;
     let specifikasi = dbPcc[1].spesifikasi;
     title.textContent = texttitle;
@@ -157,6 +169,23 @@ function isi(x) {
     }
 
     let newDesc = `<p class="text-light"> ${dbPcc[2].description}</p>`;
+    desc.insertAdjacentHTML("beforebegin", newDesc);
+  } else {
+    let texttitle = dbdigantara[x - 5].judul;
+    let specifikasi = dbdigantara[1].spesifikasi;
+    title.textContent = texttitle;
+    for (let i = 0; i < specifikasi.length; i++) {
+      let li = document.createElement("li");
+      let datali = `${specifikasi[i]}`;
+      li.append(datali);
+      spec.appendChild(li);
+      close.addEventListener("click", () => {
+        li.parentNode.removeChild(li);
+        location.reload();
+      });
+    }
+
+    let newDesc = `<p class="text-light"> ${dbdigantara[2].description}</p>`;
     desc.insertAdjacentHTML("beforebegin", newDesc);
   }
 }
