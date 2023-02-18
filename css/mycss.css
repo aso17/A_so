@@ -99,7 +99,7 @@ nav ul li a:hover {
     height: 100vh;
     align-items: center;
     z-index: 2;
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(221, 211, 211, 0.5);
     transform: translateX(100%);
     transition: all 0.5s;
     opacity: 0;
