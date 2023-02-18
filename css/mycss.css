@@ -1,6 +1,7 @@
 * {
   margin: 0;
   padding: 0;
+  color: rgb(51, 98, 160)!important;
 }
 body {
   font-family: sans-serif;
@@ -9,7 +10,7 @@ body {
 }
 
 nav {
-  background-color: black;
+  background-color: rgb(228, 225, 220);
   display: flex;
   color: white;
   justify-content: space-around;
@@ -59,14 +60,14 @@ nav ul li a:hover {
 }
 .toggle-menu input:checked ~ span:nth-child(2) {
   transform: rotate(45deg) translate(-2px, -2px);
-  background-color: white;
+  background-color: rgb(18, 101, 209);
 }
 .toggle-menu span:nth-child(4) {
   transition: all 0.5s;
   transform-origin: 0 100%;
 }
 .toggle-menu input:checked ~ span:nth-child(4) {
-  background-color: white;
+  background-color: rgb(51, 98, 160);
   transform: rotate(-45deg) translate(0px, 0px);
 }
 .toggle-menu input:checked ~ span:nth-child(3) {
