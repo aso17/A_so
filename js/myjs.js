@@ -5,7 +5,7 @@ check.addEventListener("click", function () {
   ul.classList.toggle("slide");
 });
 
-const text = ["Web Developer"];
+const text = ["Full Stack Developer"];
 let count = 0;
 let textindex = 0;
 let curent = "";
