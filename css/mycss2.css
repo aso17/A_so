@@ -235,16 +235,16 @@ p {
   width: 85%;
 }
 .lara {
-  width: 70%;
-}
-.sql {
   width: 75%;
 }
+.sql {
+  width: 85%;
+}
 .jquery {
-  width: 65%;
+  width: 75%;
 }
 .figma {
-  width: 60%;
+  width: 85%;
 }
 .excel {
   width: 75%;
